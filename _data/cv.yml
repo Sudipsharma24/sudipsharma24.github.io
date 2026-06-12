@@ -1,0 +1,97 @@
+cv:
+  name: Sudip Sharma
+  label: PhD Candidate, Process Systems Engineering
+  email: sudip.sharma@ntnu.no
+  location: Trondheim, Norway
+  image: ""
+  summary: PhD researcher at NTNU building open-source first-principles models of next-generation CO₂ capture (magnetic induction swing adsorption, MISA) and coupling them with Gaussian-process surrogates, active learning, and multi-objective optimization. Backed by three years of industrial process R&D and quality-control experience and an Erasmus Mundus MSc spanning techno-economic analysis, life-cycle assessment, and analytical chemistry.
+
+  social_networks:
+    - network: GitHub
+      username: Sudipsharma24
+    - network: LinkedIn
+      username: sudipsharma
+
+  sections:
+    Education:
+      - institution: Norwegian University of Science and Technology (NTNU)
+        location: Trondheim, Norway
+        area: Electrification of Chemical Industries — CO₂ capture
+        studyType: PhD
+        start_date: 2024-10
+        end_date: present
+        highlights:
+          - Supervisor — Prof. Thomas Alan Adams II (Process and Power group).
+          - Modelling, simulation, and optimization of electrified CO₂-capture processes in open-source Python frameworks, focused on magnetic induction swing adsorption (MISA).
+          - Funded by the NTNU–MIT Energy Research Programme (NMERP-C2).
+      - institution: BIOCEB — European Master in Biological and Chemical Engineering for a Sustainable Bioeconomy (Erasmus Mundus Joint Master)
+        location: URCA (France) · TalTech (Estonia) · ULiège (Belgium) · TU Graz (Austria)
+        area: Biological and chemical engineering
+        studyType: MSc
+        start_date: 2022-09
+        end_date: 2024-08
+        highlights:
+          - Thesis at TU Graz under Prof. Viktor Hacker — coupled techno-economic and life-cycle assessment of polyaniline-coated Pt/C catalysts for PEMFC electrodes; recycled-Pt sourcing cut cradle-to-gate global-warming impact by about 79%.
+      - institution: Kathmandu University
+        location: Kathmandu, Nepal
+        area: Chemical Engineering
+        studyType: B.E.
+        start_date: 2015-08
+        end_date: 2019-10
+
+    Experience:
+      - company: Graz University of Technology (TU Graz)
+        position: Research Assistant (MSc thesis)
+        location: Graz, Austria
+        start_date: 2024-01
+        end_date: 2024-09
+        highlights:
+          - Coupled TEA and cradle-to-gate LCA (OpenLCA, ecoinvent v3.10, ReCiPe 2016) of two PANI-coated Pt/C production routes for PEMFC membrane-electrode assemblies.
+          - Electrocatalysis characterization of Pt/C catalysts (RDE, SEM, FTIR).
+      - company: Jawalakhel Group of Industries
+        position: Executive Engineer (R&D and Quality Control)
+        location: Lalitpur, Nepal
+        start_date: 2019
+        end_date: 2022
+        highlights:
+          - Quality control and analytical testing of raw materials and finished products.
+          - Process R&D and product development on the plant floor.
+
+    Publications:
+      - title: An Open-Source IDAES Framework for Simulating Inductively Heated Adsorption Processes
+        authors:
+          - Sudip Sharma
+          - Thomas A. Adams II
+        publisher: Systems and Control Transactions (ESCAPE-36), vol. 5, PSE Press — in press
+        releaseDate: 2026
+        url: https://psecommunity.org/LAPSE:2026.0302
+      - title: "Technological trends in heavy metals removal from industrial wastewater: A review"
+        authors:
+          - Rakesh Shrestha
+          - Sagar Ban
+          - Sijan Devkota
+          - Sudip Sharma
+          - Rajendra Joshi
+          - Arjun Prasad Tiwari
+          - Hak Yong Kim
+          - Mahesh Kumar Joshi
+        publisher: Journal of Environmental Chemical Engineering 9(4), 105688
+        releaseDate: 2021-08
+        url: https://doi.org/10.1016/j.jece.2021.105688
+
+    Awards:
+      - title: Erasmus Mundus Scholarship
+        date: 2022
+        awarder: European Union
+        summary: Full scholarship for the BIOCEB joint master's programme (2022–2024).
+      - title: Diligent Student Scholarship
+        date: 2016
+        awarder: Kathmandu University
+        summary: Merit scholarship (2016–2019).
+
+    Skills:
+      - name: IDAES & Pyomo · Python · process modelling and simulation
+      - name: Gaussian-process surrogates · active learning · multi-objective optimization (NSGA-II, MOPSO)
+      - name: Techno-economic analysis & LCA — OpenLCA, ecoinvent
+      - name: Analytical chemistry — HPLC, FTIR, GC-MS
+      - name: Languages — Nepali (native), English (fluent), Norwegian (intermediate)
