@@ -25,7 +25,7 @@ cv:
           - Modelling, simulation, and optimization of electrified CO₂-capture processes in open-source Python frameworks, focused on magnetic induction swing adsorption (MISA).
           - Funded by the NTNU–MIT Energy Research Programme (NMERP-C2).
       - institution: BIOCEB — European Master in Biological and Chemical Engineering for a Sustainable Bioeconomy (Erasmus Mundus Joint Master)
-        location: URCA (France) · TalTech (Estonia) · ULiège (Belgium) · TU Graz (Austria)
+        location: France · Estonia · Belgium · Austria
         area: Biological and chemical engineering
         studyType: MSc
         start_date: 2022-09
@@ -92,6 +92,7 @@ cv:
     Skills:
       - name: IDAES & Pyomo · Python · process modelling and simulation
       - name: Gaussian-process surrogates · active learning · multi-objective optimization (NSGA-II, MOPSO)
+      - name: qNEHVI Bayesian Opitimization
       - name: Techno-economic analysis & LCA — OpenLCA, ecoinvent
       - name: Analytical chemistry — HPLC, FTIR, GC-MS
       - name: Languages — Nepali (native), English (fluent), Norwegian (intermediate)
