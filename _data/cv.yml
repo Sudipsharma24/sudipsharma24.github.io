@@ -31,6 +31,7 @@ cv:
         start_date: 2022-09
         end_date: 2024-08
         highlights:
+          - Studied across URCA (France), TalTech (Estonia), ULiège (Belgium), and TU Graz (Austria).
           - Thesis at TU Graz under Prof. Viktor Hacker — coupled techno-economic and life-cycle assessment of polyaniline-coated Pt/C catalysts for PEMFC electrodes; recycled-Pt sourcing cut cradle-to-gate global-warming impact by about 79%.
       - institution: Kathmandu University
         location: Kathmandu, Nepal
@@ -51,8 +52,8 @@ cv:
       - company: Jawalakhel Group of Industries
         position: Executive Engineer (R&D and Quality Control)
         location: Lalitpur, Nepal
-        start_date: 2019
-        end_date: 2022
+        start_date: 2019-10
+        end_date: 2022-08
         highlights:
           - Quality control and analytical testing of raw materials and finished products.
           - Process R&D and product development on the plant floor.
@@ -63,7 +64,7 @@ cv:
           - Sudip Sharma
           - Thomas A. Adams II
         publisher: Systems and Control Transactions (ESCAPE-36), vol. 5, PSE Press — in press
-        releaseDate: 2026
+        releaseDate: 2026-06
         url: https://psecommunity.org/LAPSE:2026.0302
       - title: "Technological trends in heavy metals removal from industrial wastewater: A review"
         authors:
@@ -91,8 +92,7 @@ cv:
 
     Skills:
       - name: IDAES & Pyomo · Python · process modelling and simulation
-      - name: Gaussian-process surrogates · active learning · multi-objective optimization (NSGA-II, MOPSO)
-      - name: qNEHVI Bayesian Opitimization
+      - name: Gaussian-process surrogates · active learning · multi-objective & Bayesian optimization (NSGA-II, MOPSO, qNEHVI)
       - name: Techno-economic analysis & LCA — OpenLCA, ecoinvent
       - name: Analytical chemistry — HPLC, FTIR, GC-MS
       - name: Languages — Nepali (native), English (fluent), Norwegian (intermediate)
