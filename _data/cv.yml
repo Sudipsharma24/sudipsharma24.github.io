@@ -59,13 +59,32 @@ cv:
           - Process R&D and product development on the plant floor.
 
     Publications:
+      - title: Cycle Design and Surrogate-Based Multi-Objective Optimisation of Magnetic Induction Swing Adsorption for Electrified Post-Combustion CO₂ Capture
+        authors:
+          - Sudip Sharma
+          - Thomas A. Adams II
+        publisher: Chemical Engineering Research and Design 234, 720–739 (Elsevier)
+        releaseDate: 2026-10
+        url: https://doi.org/10.1016/j.cherd.2026.09.029
       - title: An Open-Source IDAES Framework for Simulating Inductively Heated Adsorption Processes
         authors:
           - Sudip Sharma
           - Thomas A. Adams II
-        publisher: Systems and Control Transactions (ESCAPE-36), vol. 5, PSE Press — in press
+        publisher: Systems and Control Transactions 5, 802–809 (ESCAPE-36, PSE Press)
         releaseDate: 2026-06
-        url: https://psecommunity.org/LAPSE:2026.0302
+        url: https://doi.org/10.69997/sct.177673
+      - title: "Recent Developments on Water Electrolyzers for Hydrogen Production: A Technological Review"
+        authors:
+          - Saroj Raj Kafle
+          - Sagar Ban
+          - Rakesh Shrestha
+          - Sijan Devkota
+          - Sudip Sharma
+          - Anup Kaini
+          - Ananda Tiwari
+        publisher: International Journal of Energy Research 2026(1), 7663279 (Wiley)
+        releaseDate: 2026-07
+        url: https://doi.org/10.1155/er/7663279
       - title: "Technological trends in heavy metals removal from industrial wastewater: A review"
         authors:
           - Rakesh Shrestha
@@ -81,6 +100,10 @@ cv:
         url: https://doi.org/10.1016/j.jece.2021.105688
 
     Awards:
+      - title: Student Poster Award
+        date: 2026-10
+        awarder: IEAGHG — 18th Greenhouse Gas Control Technologies Conference (GHGT-18), Perth, Australia
+        summary: For the e-poster "Multi-Objective Optimisation of Magnetic Induction Swing Adsorption for Electrified CO₂ Capture".
       - title: Erasmus Mundus Scholarship
         date: 2022
         awarder: European Union
