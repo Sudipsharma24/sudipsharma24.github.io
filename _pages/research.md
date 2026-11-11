@@ -10,7 +10,6 @@ nav_order: 1
 {% comment %}
 DRAFT. Before merging to main:
 - Add the two figures marked TODO below (files go in assets/img/research/).
-- Replace the TODO links with the real repository and LAPSE URLs.
 - Check every sentence against the published papers.
 {% endcomment %}
 
@@ -48,8 +47,8 @@ TODO figure 2: one Pareto front from the ChERD paper (purity–recovery or produ
 
 ## Results so far
 
-- **Simulation framework:** an open-source IDAES framework for inductively heated adsorption, presented at ESCAPE-36. The isotherm-fitting routines are released openly.{% comment %}TODO: link the code repository{% endcomment %}
-- **Cycle design and optimisation:** four MISA cycle configurations, simulated and optimised, published in [_Chemical Engineering Research and Design_ 234, 720–739 (2026)](https://doi.org/10.1016/j.cherd.2026.09.029). The configuration code is archived on LAPSE.{% comment %}TODO: link the LAPSE record{% endcomment %}
+- **Simulation framework:** an open-source IDAES framework for inductively heated adsorption, presented at ESCAPE-36 ([paper](https://doi.org/10.69997/sct.177673), [LAPSE:2026.0302](https://psecommunity.org/LAPSE:2026.0302)). The isotherm data, model equations and isotherm-fitting notebook are openly available as [supplementary material on LAPSE](https://psecommunity.org/LAPSE:2025.0725) (CC BY-SA 4.0).
+- **Cycle design and optimisation:** four MISA cycle configurations, simulated and optimised, published in [_Chemical Engineering Research and Design_ 234, 720–739 (2026)](https://doi.org/10.1016/j.cherd.2026.09.029). The configuration code, simulation outputs and surrogate models are archived as [supplementary information on LAPSE](https://psecommunity.org/LAPSE:2026.0046) (CC BY-NC 4.0).
 - **Recognition:** [Student Poster Award at GHGT-18](/news/2026-10-29-ghgt18-award/), Perth, 2026, among over 400 e-posters.
 
 ## Current work
