@@ -9,7 +9,7 @@ nav_order: 1
 
 {% comment %}
 DRAFT. Before merging to main:
-- Add the two figures marked TODO below (files go in assets/img/research/).
+- Confirm the four figures match the published ChERD versions (they came from the CEJ_submission folder).
 - Check every sentence against the published papers.
 {% endcomment %}
 
@@ -19,14 +19,11 @@ Temperature-swing adsorption usually regenerates the sorbent with steam or hot p
 
 My PhD at [NTNU](https://www.ntnu.edu/ept), supervised by Prof. Thomas A. Adams II and funded through the NTNU–MIT Energy Research Programme (NMERP-C2), asks how MISA cycles should be designed, and what trade-offs they face, for post-combustion CO₂ capture. The adsorbent studied is the Fe₃O₄@HKUST-1 composite.
 
-{% comment %}
-TODO figure 1: MISA cycle schematic (steps of one cycle, with induction heating marked).
 <div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/research/misa-cycle.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Schematic of a magnetic induction swing adsorption cycle" caption="One MISA cycle. Replace with the final schematic." %}
+  <div class="col-sm-11 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/research/misa-bed-steps.webp" class="img-fluid rounded z-depth-1" zoomable=true alt="Three steps of a MISA cycle: adsorption of a 15% CO2 / 85% N2 feed with the induction coil off; desorption with the coil on and an N2 purge, releasing CO2; cooling with cold water in the jacket and cold N2" caption="The basic MISA steps. Adsorption: flue gas (15% CO₂ / 85% N₂) flows through the bed with the coil off. Desorption: the AC unit drives the induction coil, heating the adsorbent directly and releasing CO₂. Cooling: cold water and cold N₂ return the bed to adsorption temperature. From Sharma & Adams, <em>Chem. Eng. Res. Des.</em> 234 (2026)." %}
   </div>
 </div>
-{% endcomment %}
 
 ## Approach
 
@@ -36,16 +33,29 @@ TODO figure 1: MISA cycle schematic (steps of one cycle, with induction heating 
 
 **Multi-objective optimisation.** On the surrogates I run NSGA-II and MOPSO to map the purity–recovery and productivity–energy trade-offs of competing cycle designs.
 
-{% comment %}
-TODO figure 2: one Pareto front from the ChERD paper (purity–recovery or productivity–energy), with permission or redrawn.
 <div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/research/pareto.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Pareto fronts for four MISA cycle configurations" caption="Trade-offs between cycle configurations. Replace with the final figure." %}
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/research/surrogate-pareto-per-config.webp" class="img-fluid rounded z-depth-1" zoomable=true alt="Four panels, one per MISA configuration, showing Gaussian-process predictions, rigorous simulations and the Pareto front in purity-recovery space" caption="Surrogate-based optimisation for each configuration: Gaussian-process predictions (light points), rigorous IDAES simulations (dark points) and the resulting purity–recovery Pareto front (outlined). From Sharma & Adams, <em>Chem. Eng. Res. Des.</em> 234 (2026)." %}
   </div>
 </div>
-{% endcomment %}
 
 ## Results so far
+
+I compared four MISA cycle configurations of increasing complexity: a basic three-step cycle (A); cycles adding a CO₂ rinse and N₂ purge (B, C), with C also sweeping the bed with CO₂ product during desorption; and a cycle with two heating stages and product and N₂ recycle (D).
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/research/misa-configurations.webp" class="img-fluid rounded z-depth-1" zoomable=true alt="Process flow diagrams of MISA configurations A to D, showing the cycle steps, induction-heated beds and recycle streams" caption="The four cycle configurations studied. Induction-heated beds are shown in red and orange. From Sharma & Adams, <em>Chem. Eng. Res. Des.</em> 234 (2026)." %}
+  </div>
+</div>
+
+Only Configuration D reaches the purity and recovery region shaded as a CCS target; Configuration C reaches the CCU region.
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/research/pareto-comparison.webp" class="img-fluid rounded z-depth-1" zoomable=true alt="Purity-recovery Pareto fronts of configurations A to D on one plot, with shaded CCU and CCS target regions" caption="Purity–recovery Pareto fronts of the four configurations, with the CCU and CCS target regions shaded. From Sharma & Adams, <em>Chem. Eng. Res. Des.</em> 234 (2026)." %}
+  </div>
+</div>
 
 - **Simulation framework:** an open-source IDAES framework for inductively heated adsorption, presented at ESCAPE-36 ([paper](https://doi.org/10.69997/sct.177673), [LAPSE:2026.0302](https://psecommunity.org/LAPSE:2026.0302)). The isotherm data, model equations and isotherm-fitting notebook are openly available as [supplementary material on LAPSE](https://psecommunity.org/LAPSE:2025.0725) (CC BY-SA 4.0).
 - **Cycle design and optimisation:** four MISA cycle configurations, simulated and optimised, published in [_Chemical Engineering Research and Design_ 234, 720–739 (2026)](https://doi.org/10.1016/j.cherd.2026.09.029). The configuration code, simulation outputs and surrogate models are archived as [supplementary information on LAPSE](https://psecommunity.org/LAPSE:2026.0046) (CC BY-NC 4.0).
