@@ -1,0 +1,9 @@
+{% comment %}
+  Local override of the al_folio_core include: keeps the theme's analytics tag
+  and adds Cloudflare Web Analytics when analytics.cloudflare is set.
+{% endcomment %}
+{% al_analytics_scripts %}
+{% if site.analytics.cloudflare and site.analytics.cloudflare != '' %}
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.analytics.cloudflare }}"}'></script>
+{% endif %}
