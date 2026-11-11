@@ -112,6 +112,7 @@ analytics:
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  cloudflare: # Cloudflare Web Analytics site token (the "token" value in the JS snippet's data-cf-beacon)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: ZboNYvoDE5ft9vLALlU6VPtWpLj_CYqe14wNdigRUv8 # Google Search Console (HTML tag)
