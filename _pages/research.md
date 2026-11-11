@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 description: Electrified post-combustion CO₂ capture by magnetic induction swing adsorption (MISA) — dynamic cycle modelling in IDAES/Pyomo, surrogate modelling and multi-objective optimisation.
 nav: true

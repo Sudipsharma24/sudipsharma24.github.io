@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Candidate · Department of Energy and Process Engineering · <a href='https://www.ntnu.edu/ept' target='_blank'>NTNU</a>, Trondheim, Norway
 
